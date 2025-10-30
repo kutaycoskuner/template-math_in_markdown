@@ -1,12 +1,9 @@
 <script lang="ts">
-    import PostContent from '$content/post.md';
-    import Katex from '$lib/components/Katex.svelte';
+    import PostContent from '$content/test-math_expressions.md';
 </script>
 
 <div class="center">
     <svelte:component this={PostContent} />
-    
-    <Katex expression="a^2 + b^2 = c^2" displayMode=false/>
 </div>
 
 <style>
